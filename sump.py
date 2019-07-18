@@ -1,5 +1,5 @@
 ls=[]
-l=0
+l=int(0)
 a, b=[int(l)for l in input().split()]
 for i in range(a):
   t=int(input())
