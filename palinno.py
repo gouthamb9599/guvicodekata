@@ -1,10 +1,10 @@
-num = int(input())
-temp = num
-rev = 0
-while temp != 0:
-	rev = (rev * 10) + (temp % 10)
-	temp = temp // 10
-if num == rev:
+x = int(input())
+y = x
+r = 0
+while y != 0:
+	r = (r * 10) + (y % 10)
+	y = y// 10
+if x == r:
 	print("yes")
 else:
 	print("no")
